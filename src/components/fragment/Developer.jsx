@@ -2,11 +2,7 @@ import React from "react";
 import "../assets/scss/Developer.scss";
 import { IconButton } from "@material-ui/core";
 // import AvatarImage from "../assets/img/avatar.jpeg";
-import {
-  Instagram,
-  LinkedIn,
-  Portrait,
-} from "@material-ui/icons";
+import { LinkedIn, Portrait } from "@material-ui/icons";
 
 const Developer = () => {
   return (
@@ -40,21 +36,12 @@ const Developer = () => {
           </p>
 
           <div className="Card-btn">
-            
-           
             <IconButton
               target={"_blank"}
               href={"https://www.linkedin.com/in/vishalsingh-/"}
               title={"vishalsingh-"}
             >
               <LinkedIn />
-            </IconButton>
-            <IconButton
-              target={"_blank"}
-              href={"https://www.instagram.com/vishalsingh023/"}
-              title={"vishalsingh023"}
-            >
-              <Instagram />
             </IconButton>
             <IconButton
               target={"_blank"}
