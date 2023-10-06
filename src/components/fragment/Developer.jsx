@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/scss/Developer.scss";
 import { IconButton } from "@material-ui/core";
 // import AvatarImage from "../assets/img/avatar.jpeg";
-import { LinkedIn, Portrait } from "@material-ui/icons";
+import { LinkedIn, GitHub, Portrait } from "@material-ui/icons";
 
 const Developer = () => {
   return (
@@ -38,11 +38,18 @@ const Developer = () => {
           <div className="Card-btn">
             <IconButton
               target={"_blank"}
-              href={"https://www.linkedin.com/in/vishalsingh-/"}
-              title={"vishalsingh-"}
+              href={"https://www.linkedin.com/in/ashmina-rai-aa23611bb/"}
+              title={"AshminaRai"}
             >
               <LinkedIn />
             </IconButton>
+            <IconButton
+  target={"_blank"}
+  href={"https://github.com/ashminarai"}
+  title={"Github"}
+>
+  <GitHub /> {/* Use GitHub icon here */}
+</IconButton>
             <IconButton
               target={"_blank"}
               href={"https://ashminarai.github.io/"}
