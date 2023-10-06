@@ -25,5 +25,5 @@ To get started with the Music Player App, follow these steps:
    git clone https://github.com/your-username/music-player-app.git
 
 2. Install dependencies
- ```bash
+   ```bash
    npm install
