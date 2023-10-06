@@ -58,7 +58,7 @@ const Developer = () => {
             </IconButton>
             <IconButton
               target={"_blank"}
-              href={"https://vishal.thetechnician.in/"}
+              href={"https://ashminarai.github.io/"}
               title={"Web Portfolio"}
             >
               <Portrait />
