@@ -44,12 +44,12 @@ const Developer = () => {
               <LinkedIn />
             </IconButton>
             <IconButton
-  target={"_blank"}
-  href={"https://github.com/ashminarai"}
-  title={"Github"}
->
-  <GitHub /> {/* Use GitHub icon here */}
-</IconButton>
+              target={"_blank"}
+              href={"https://github.com/ashminarai"}
+              title={"Github"}
+            >
+              <GitHub /> 
+            </IconButton>
             <IconButton
               target={"_blank"}
               href={"https://ashminarai.github.io/"}
