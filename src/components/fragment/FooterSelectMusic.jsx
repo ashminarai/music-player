@@ -7,13 +7,11 @@ function FooterSelectMusic() {
     const useStyle = useContext(ThemeContext);
 
     return (
-        <>
-        </>
-        // <div style={{backgroundColor:useStyle.subTheme}} className={"Footer_Select_Music"}>
-        //     <Link to={"/home"}>
-        //         Select a music to continue
-        //     </Link>
-        // </div>
+        <div style={{backgroundColor:useStyle.subTheme}} className={"Footer_Select_Music"}>
+            <Link to={"/home"}>
+                Select a music to continue
+            </Link>
+        </div>
     );
 }
 
